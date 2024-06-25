@@ -8,7 +8,7 @@ const Navbar = () => {
         <div>
           <img src={logo} alt="" className="sm:h-20 h-12" />
         </div>
-        <div className="flex md:gap-5 gap-2">
+        <div className="flex md:gap-5 gap-2 justify-center items-center">
             <div>
                 <select className="sm:px-5 px-1 sm:py-2 py-1 rounded-md bg-slate-900 opacity-70 text-white sm:font-semibold border">
                     <option value="">Eng</option>
